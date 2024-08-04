@@ -1,0 +1,15 @@
+.detail-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.info .title {
+  padding-bottom: 30px;
+  border-bottom: #fff solid 2px;
+}
+
+.trailer img {
+  width: 100%;
+  height: auto;
+}

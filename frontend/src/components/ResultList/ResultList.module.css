@@ -1,0 +1,40 @@
+.result-list {
+  padding-left: 20px;
+}
+
+.results {
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.results img {
+  max-height: 250px;
+  cursor: pointer;
+  transition: transform 500ms;
+}
+
+.results img:hover {
+  transform: scale(1.1);
+}
+
+.results::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.results::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.results::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.detail {
+  padding: 40px;
+}

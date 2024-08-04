@@ -1,0 +1,45 @@
+.movie-list {
+  margin-left: 20px;
+}
+
+.movies {
+  display: flex;
+  padding: 20px;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.movies img {
+  max-height: 150px;
+  width: auto;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 500ms;
+}
+
+.movies img:hover {
+  transform: scale(1.1);
+}
+
+.movies.large img {
+  max-height: 250px;
+}
+
+.movies::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.movies::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+.movies::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.detail {
+  padding: 40px;
+}

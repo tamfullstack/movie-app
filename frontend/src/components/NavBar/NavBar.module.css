@@ -1,0 +1,31 @@
+.nav-bar {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  z-index: 1;
+}
+
+.over-scroll {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.title {
+  color: red;
+  text-decoration: none;
+}
+
+.title h2 {
+  margin: 0;
+}
+
+.search svg {
+  width: 30px;
+  height: 30px;
+}
